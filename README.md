@@ -24,13 +24,15 @@
 
   In[5]: sample.read_spectrogram()
   
+  In[6]: data = sample.spectrogram
+  
 3. Apply tracing over specific range in time and frequency.
 
-  In[6]: t=Trace()
+  In[7]: t=Trace()
 
-  In[7]: trace_info = t.trace(data, mask = None)
+  In[8]: trace_info = t.trace(data, mask = None)
   
 4. Visualize traced structures.
 
-  In[8]: t.plot_trace(data, trace_info)
+  In[9]: t.plot_trace(data, trace_info)
 
