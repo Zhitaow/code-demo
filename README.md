@@ -13,6 +13,7 @@
 ### Example: pattern discovery of solar fiber bursts in the radio spectrogram
 1. Download the files above to your directory.
 2. Import raw data.
+
   In[1]: from trace import Trace
 
   In[2]: from spectrogram import Spectrogram
