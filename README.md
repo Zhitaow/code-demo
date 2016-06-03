@@ -1,6 +1,12 @@
 # code-demo
 ## This repo contains demo-codes of auto tracing algorithm.
 
+### Description:
+Perform graphical texture tracing for use of further data analysis.
+
+### Tracing Result:
+![alt tag](https://github.com/Zhitaow/code-demo/blob/master/figure_1.png)
+
 #### raw input data including:
 - [x] 1-miniute spectrogram obtained by VLA: "18_52_00.00~18_53_00.01_ds_LL.txt"
 - [x] x-axis (time) info: "t18_52_00.00~18_53_00.01_time_LL_axis.txt"
@@ -14,6 +20,3 @@
 1. Download the files above to your directory.
 2. In "testme.py", specify "file_path" variable corresponding to your directory
 3. Run wrap-up script: "testme.py"
-
-### Tracing Result:
-![alt tag](https://github.com/Zhitaow/code-demo/blob/master/figure_1.png)
