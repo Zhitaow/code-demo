@@ -1,5 +1,5 @@
 # code-demo
-### This repo contains demo-codes of auto tracing algorithm.
+## This repo contains demo-codes of auto tracing algorithm.
 
 #### raw input data including:
 - [x] 1-miniute spectrogram obtained by VLA: "18_52_00.00~18_53_00.01_ds_LL.txt"
@@ -12,7 +12,7 @@
 
 ### Example: pattern discovery of solar fiber bursts in the radio spectrogram
 1. Download the files above to your directory.
-2. Change file_path to your directory
+2. In "testme.py", specify "file_path" variable corresponding to your directory
 3. Run wrap-up script: "testme.py"
 
 ### Tracing Result:
