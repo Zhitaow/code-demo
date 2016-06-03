@@ -13,17 +13,21 @@
 ### Example: pattern discovery of solar fiber bursts in the radio spectrogram
 1. Download the files above to your directory.
 2. Import raw data.
-  In: file_path = "YOUR_PATH"
+  In[1]: from trace import Trace
 
-  In: sample = Spectrogram(file_path = file_path)
+  In[2]: from spectrogram import Spectrogram
 
-  In: sample.read_spectrogram()
+  In[3]: file_path = "YOUR_PATH"
+
+  In[4]: sample = Spectrogram(file_path = file_path)
+
+  In[5]: sample.read_spectrogram()
   
 3. Apply tracing over specific range in time and frequency.
-  In: t=Trace()
+  In[6]: t=Trace()
 
-  In: trace_info = t.trace(data, mask = None)
+  In[7]: trace_info = t.trace(data, mask = None)
   
 4. Visualize traced structures.
-  In: t.plot_trace(data, trace_info)
+  In[8]: t.plot_trace(data, trace_info)
 
