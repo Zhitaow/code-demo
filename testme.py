@@ -9,7 +9,7 @@ from trace import Trace
 from spectrogram import Spectrogram
 ########################## Import raw data. ###################################
 file_path = "C:/Users/Zhitao/Desktop/pywork/"           # modify YOUR_PATH here
-sample = Spectrogram()
+sample = Spectrogram(file_path = file_path)
 sample.read_spectrogram()
 data = sample.spectrogram
 ########### Apply tracing over specific range in time and frequency. ##########
