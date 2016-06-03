@@ -11,19 +11,14 @@
 - [x] tracing algorithm: trace.py
 
 ### Example: pattern discovery of solar fiber bursts in the radio spectrogram
-1. Download the files above into your directory.
-2. Import raw data
+1. Download the files above to your directory.
+2. Import raw data.
   file_path = "YOUR_PATH" 
-  <ol>
-  <li>sample = Spectrogram(file_path = file_path)</li>
-  <li>sample.read_spectrogram()</li>
-  </ol>
+  >>> sample = Spectrogram(file_path = file_path)
+  >>> sample.read_spectrogram()
 3. Apply tracing over specific range in time and frequency.
-  <ol>
-  <li>t=Trace()</li>
-  <li>trace_info = t.trace(data, mask = None)</li>
-  </ol>
-4. Visualize traced structures
-  <ol>
-  <li>t.plot_trace(data, trace_info)</li>
-  </ol>
+  >>> t=Trace()
+  >>> trace_info = t.trace(data, mask = None)
+4. Visualize traced structures.
+  >>> t.plot_trace(data, trace_info)
+
