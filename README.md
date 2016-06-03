@@ -14,10 +14,16 @@
 1. Download the files above into your directory.
 2. Import raw data
   file_path = "YOUR_PATH" 
+  <ol>
   <li>sample = Spectrogram(file_path = file_path)</li>
   <li>sample.read_spectrogram()</li>
+  </ol>
 3. Apply tracing over specific range in time and frequency.
+  <ol>
   <li>t=Trace()</li>
   <li>trace_info = t.trace(data, mask = None)</li>
+  </ol>
 4. Visualize traced structures
+  <ol>
   <li>t.plot_trace(data, trace_info)</li>
+  </ol>
