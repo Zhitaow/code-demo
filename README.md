@@ -15,3 +15,5 @@
 2. Change file_path to your directory
 3. Run wrap-up script: "testme.py"
 
+### Tracing Result:
+![alt tag](https://github.com/Zhitaow/code-demo/blob/master/figure_1.png)
